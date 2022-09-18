@@ -15,13 +15,15 @@ const MetaTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLMetaElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
-            <td>name content http-equiv charset</td>
+            <td className="html-cell-details">
+              name content http-equiv charset
+            </td>
           </tr>
         </tbody>
       </table>

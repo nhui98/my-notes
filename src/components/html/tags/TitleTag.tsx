@@ -15,7 +15,7 @@ const TitleTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLTitleElement" />
             </td>
           </tr>

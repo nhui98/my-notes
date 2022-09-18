@@ -12,17 +12,17 @@ const StyleTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLStyleElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted Content</td>
-            <td>Text content of type text/css</td>
+            <td className="html-cell-details">Text content of type text/css</td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
-            <td>media title nonce</td>
+            <td className="html-cell-details">media title nonce</td>
           </tr>
         </tbody>
       </table>

@@ -15,13 +15,13 @@ const HeadTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLHeadElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted Content</td>
-            <td>
+            <td className="html-cell-details">
               <Tag tag="title" /> <Tag tag="base" /> <Tag tag="link" />{" "}
               <Tag tag="style" /> <Tag tag="meta" /> <Tag tag="script" />{" "}
               <Tag tag="noscript" /> <Tag tag="template" />

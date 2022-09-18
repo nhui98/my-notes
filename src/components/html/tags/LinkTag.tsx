@@ -15,19 +15,19 @@ const LinkTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLLinkElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="link" /> with href attribute
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
-            <td>
+            <td className="html-cell-details">
               as crossorigin href hreflang imagesizes imagesrcset integrity
               media prefetch referrerpolicy rel sizes title type
             </td>

@@ -18,19 +18,19 @@ const Template = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="" /> <AriaRole role="" />
             </td>
           </tr>

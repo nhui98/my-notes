@@ -17,20 +17,20 @@ const SectionTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="region" /> if the element has an{" "}
               <AriaRole role="accessible name" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="alert" /> <AriaRole role="alertdialog" />{" "}
               <AriaRole role="application" /> <AriaRole role="banner" />{" "}
               <AriaRole role="complementary" /> <AriaRole role="contentinfo" />{" "}

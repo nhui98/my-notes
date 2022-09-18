@@ -16,19 +16,19 @@ const AsideTag = () => (
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
-            <td>
+            <td className="html-cell-details">
               <DomInterface element="HTMLElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="complementary" />
             </td>
           </tr>
           <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
-            <td>
+            <td className="html-cell-details">
               <AriaRole role="feed" /> <AriaRole role="none" />{" "}
               <AriaRole role="note" /> <AriaRole role="presentation" />{" "}
               <AriaRole role="region" /> <AriaRole role="search" />
