@@ -30,6 +30,8 @@ const ARIA_ROLE_LINKS = {
   contentinfo:
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/contentinfo_role",
   dialog: "https://w3c.github.io/aria/#dialog",
+  directory: "https://w3c.github.io/aria/#directory",
+  definition: "https://w3c.github.io/aria/#definition",
   document:
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/document_role",
   feed: "https://w3c.github.io/aria/#feed",
@@ -39,19 +41,38 @@ const ARIA_ROLE_LINKS = {
   heading:
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/heading_role",
   link: "https://w3c.github.io/aria/#link",
+  list: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/list_role",
+  listbox:
+    "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/listbox_role",
+  listitem:
+    "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/listitem_role",
   log: "https://w3c.github.io/aria/#log",
   main: "https://w3c.github.io/aria/#main",
+  menu: "https://w3c.github.io/aria/#menu",
+  menubar: "https://w3c.github.io/aria/#menubar",
+  menuitem: "https://w3c.github.io/aria/#menuitem",
+  menuitemcheckbox: "https://w3c.github.io/aria/#menuitemcheckbox",
+  menuitemradio: "https://w3c.github.io/aria/#menuitemradio",
   marquee: "https://w3c.github.io/aria/#marquee",
   none: "https://w3c.github.io/aria/#none",
   note: "https://w3c.github.io/aria/#note",
   navigation:
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/navigation_role",
+  option: "https://w3c.github.io/aria/#option",
   presentation: "https://w3c.github.io/aria/#presentation",
   region: "https://w3c.github.io/aria/#region",
+  radio: "https://w3c.github.io/aria/#radio",
+  radiogroup: "https://w3c.github.io/aria/#radiogroup",
   search: "https://w3c.github.io/aria/#search",
+  seperator: "https://w3c.github.io/aria/#separator",
   status: "https://w3c.github.io/aria/#status",
   tab: "https://w3c.github.io/aria/#tab",
+  tablist: "https://w3c.github.io/aria/#tablist",
   tabpanel: "https://w3c.github.io/aria/#tabpanel",
+  term: "https://w3c.github.io/aria/#term",
+  treeitem: "https://w3c.github.io/aria/#treeitem",
+  toolbar: "https://w3c.github.io/aria/#toolbar",
+  tree: "https://w3c.github.io/aria/#tree",
 } as {
   [key: string]: string;
 };

@@ -39,6 +39,26 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address",
   HTMLHeadingElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement",
+  HTMLQuoteElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLQuoteElement",
+  HTMLDivElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDivElement",
+  HTMLDListElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDListElement",
+  HTMLSpanElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSpanElement",
+  HTMLHRElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHRElement",
+  HTMLLIElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLIElement",
+  HTMLOListElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOListElement",
+  HTMLUListElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLUListElement",
+  HTMLParagraphElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLParagraphElement",
+  HTMLPreElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLPreElement",
 } as {
   [key: string]: string;
 };
