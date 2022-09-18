@@ -71,7 +71,7 @@
   }
 
   .html-cell-label {
-    @apply w-full align-top text-base text-slate-200 sm:w-32 sm:text-sm;
+    @apply w-full align-top text-base text-slate-200 sm:w-32 sm:text-sm md:w-40;
   }
 
   .html-cell-details {
