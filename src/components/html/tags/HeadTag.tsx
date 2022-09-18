@@ -2,7 +2,10 @@ import Tag from "../Tag";
 
 const HeadTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="head" />
+    <div className="w-[100px]">
+      <Tag tag="head" />
+    </div>
+
     <div className="flex flex-col gap-y-1">
       <div>
         Contains machine-readable information (metadata) about the document.

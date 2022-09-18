@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const MetaTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="meta" />
+    <div className="w-[100px]">
+      <Tag tag="meta" />
+    </div>
     <div className="flex flex-col gap-y-1">
       <div>
         Represents metadata that cannot be represented by other HTML

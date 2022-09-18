@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const TitleTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="title" />
+    <div className="w-[100px]">
+      <Tag tag="title" />
+    </div>
     <div className="flex flex-col gap-y-1">
       <div>
         Defines document&apos;s title shown in browser&apos;s title bar or a

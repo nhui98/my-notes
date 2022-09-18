@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const BodyTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="body" />
+    <div className="w-[100px]">
+      <Tag tag="body" />
+    </div>
     <div className="flex flex-col gap-y-1">
       <div>Represents the content of a HTML document.</div>
       <table className="table-auto">

@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const HtmlTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="html" />
+    <div className="w-[100px]">
+      <Tag tag="html" />
+    </div>
     <div className="flex w-full flex-col gap-y-1">
       <div>Root element of a HTML document.</div>
       <table className="table-auto">

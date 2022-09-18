@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const LinkTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="link" />
+    <div className="w-[100px]">
+      <Tag tag="link" />
+    </div>
     <div className="flex flex-col gap-y-1">
       <div>
         Specifies relationships between current document and external resources.

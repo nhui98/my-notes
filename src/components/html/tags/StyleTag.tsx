@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const StyleTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="style" />
+    <div className="w-[100px]">
+      <Tag tag="style" />
+    </div>
     <div className="flex flex-col gap-y-1">
       <div>Contains style information for a document.</div>
       <table className="table-auto">

@@ -2,7 +2,9 @@ import Tag from "../Tag";
 
 const BaseTag = () => (
   <div className="flex gap-x-4">
-    <Tag tag="base" />
+    <div className="w-[100px]">
+      <Tag tag="base" />
+    </div>
     <div className="flex flex-col gap-y-1">
       <div>
         Base URL to use for all relative URLs in a document. Only one{" "}
