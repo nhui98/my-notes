@@ -1,12 +1,13 @@
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const AddressTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="address" />
     </div>
 
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>
         Indicates that the enclosed HTML provides contact information for a
         person or people, or for an organization.
@@ -14,8 +15,10 @@ const AddressTag = () => (
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">DOM interface</td>
-            <td className="px-4 text-sky-400">HTMLElement</td>
+            <td className="html-cell-label">DOM interface</td>
+            <td>
+              <DomInterface element="HTMLElement" />
+            </td>
           </tr>
         </tbody>
       </table>

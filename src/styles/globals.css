@@ -26,7 +26,24 @@
   .html-section {
     @apply py-8;
   }
+
   .html-section-layout {
     @apply flex flex-col gap-y-8;
+  }
+
+  .html-tag-container {
+    @apply flex gap-x-4;
+  }
+
+  .html-tag {
+    @apply w-[100px];
+  }
+
+  .html-tag-content {
+    @apply flex flex-col gap-y-1;
+  }
+
+  .html-cell-label {
+    @apply w-32 text-slate-200;
   }
 }

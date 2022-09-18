@@ -1,11 +1,13 @@
+import AriaRole from "../AriaRole";
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const NavTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="nav" />
     </div>
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>
         Represents a section of a page whose purpose is to provide navigation
         links, either within the current document or to other documents.
@@ -13,12 +15,16 @@ const NavTag = () => (
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">Implicit ARIA role</td>
-            <td className="px-4 text-sky-400">navigation</td>
+            <td className="html-cell-label">Implicit ARIA role</td>
+            <td>
+              <AriaRole role="navigation" />
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">DOM interface</td>
-            <td className="px-4 text-sky-400">HTMLElement</td>
+            <td className="html-cell-label">DOM interface</td>
+            <td>
+              <DomInterface element="HTMLElement" />
+            </td>
           </tr>
         </tbody>
       </table>

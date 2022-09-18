@@ -1,11 +1,13 @@
+import AriaRole from "../AriaRole";
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const HeaderTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="header" />
     </div>
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>
         Represents introductory content, typically a group of introductory or
         navigational aids.
@@ -13,16 +15,23 @@ const HeaderTag = () => (
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">Implicit ARIA role</td>
-            <td className="px-4 text-sky-400">banner, no corresponsing role</td>
+            <td className="html-cell-label">Implicit ARIA role</td>
+            <td>
+              <AriaRole role="banner" />, no corresponding role
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">Permitted ARIA roles</td>
-            <td className="px-4 text-sky-400">group presentation none</td>
+            <td className="html-cell-label">Permitted ARIA roles</td>
+            <td>
+              <AriaRole role="group" /> <AriaRole role="presentation" />{" "}
+              <AriaRole role="none" />{" "}
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">DOM interface</td>
-            <td className="px-4 text-sky-400">HTMLElement</td>
+            <td className="html-cell-label">DOM interface</td>
+            <td>
+              <DomInterface element="HTMLElement" />
+            </td>
           </tr>
         </tbody>
       </table>

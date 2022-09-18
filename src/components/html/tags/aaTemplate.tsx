@@ -2,34 +2,36 @@ import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
-const LinkTag = () => (
+const Template = () => (
   <div className="html-tag-container">
     <div className="html-tag">
-      <Tag tag="link" />
+      <Tag tag="" />
     </div>
+
     <div className="html-tag-content">
       <div>
-        Specifies relationships between current document and external resources.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium
+        nihil quisquam hic aliquid unde sapiente exercitationem animi suscipit
+        quasi dicta?
       </div>
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
-              <AriaRole role="link" /> with href attribute
+              <AriaRole role="" />
+            </td>
+          </tr>
+          <tr>
+            <td className="html-cell-label">Permitted ARIA roles</td>
+            <td>
+              <AriaRole role="" /> <AriaRole role="" />
             </td>
           </tr>
           <tr>
             <td className="html-cell-label">DOM interface</td>
             <td>
-              <DomInterface element="HTMLLinkElement" />
-            </td>
-          </tr>
-          <tr>
-            <td className="html-cell-label">Attributes</td>
-            <td>
-              as crossorigin href hreflang imagesizes imagesrcset integrity
-              media prefetch referrerpolicy rel sizes title type
+              <DomInterface element="" />
             </td>
           </tr>
         </tbody>
@@ -38,4 +40,4 @@ const LinkTag = () => (
   </div>
 );
 
-export default LinkTag;
+export default Template;

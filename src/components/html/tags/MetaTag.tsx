@@ -1,11 +1,12 @@
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const MetaTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="meta" />
     </div>
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>
         Represents metadata that cannot be represented by other HTML
         meta-related elements.
@@ -13,14 +14,14 @@ const MetaTag = () => (
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">DOM interface</td>
-            <td className="px-4 text-sky-400">HTMLMetaElement</td>
+            <td className="html-cell-label">DOM interface</td>
+            <td>
+              <DomInterface element="HTMLMetaElement" />
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">Attributes</td>
-            <td className="px-4 text-sky-400">
-              name content http-equiv charset
-            </td>
+            <td className="html-cell-label">Attributes</td>
+            <td>name content http-equiv charset</td>
           </tr>
         </tbody>
       </table>

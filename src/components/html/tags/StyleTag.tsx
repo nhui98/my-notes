@@ -1,25 +1,28 @@
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const StyleTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="style" />
     </div>
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>Contains style information for a document.</div>
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">Permitted Content</td>
-            <td className="px-4 text-sky-400">Text content of type text/css</td>
+            <td className="html-cell-label">Permitted Content</td>
+            <td>Text content of type text/css</td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">DOM interface</td>
-            <td className="px-4 text-sky-400">HTMLStyleElement</td>
+            <td className="html-cell-label">DOM interface</td>
+            <td>
+              <DomInterface element="HTMLStyleElement" />
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">Attributes</td>
-            <td className="px-4 text-sky-400">media title</td>
+            <td className="html-cell-label">Attributes</td>
+            <td>media title nonce</td>
           </tr>
         </tbody>
       </table>

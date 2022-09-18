@@ -1,23 +1,31 @@
+import AriaRole from "../AriaRole";
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const BodyTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="body" />
     </div>
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>Represents the content of a HTML document.</div>
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">DOM Interface</td>
-            <td className="px-4 text-sky-400">HTMLBodyElement</td>
+            <td className="html-cell-label">Implicit ARIA role</td>
+            <td>
+              <AriaRole role="generic" />
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">Attributes</td>
-            <td className="px-4 text-sky-400">
-              onblur onfocus onerror onload onunload onresize
+            <td className="html-cell-label">DOM Interface</td>
+            <td>
+              <DomInterface element="HTMLBodyElement" />
             </td>
+          </tr>
+          <tr>
+            <td className="html-cell-label">Attributes</td>
+            <td>onblur onfocus onerror onload onunload onresize</td>
           </tr>
         </tbody>
       </table>

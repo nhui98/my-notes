@@ -1,8 +1,10 @@
+import AriaRole from "../AriaRole";
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const HtmlTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="html" />
     </div>
     <div className="flex w-full flex-col gap-y-1">
@@ -10,16 +12,16 @@ const HtmlTag = () => (
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">Implicit ARIA role</td>
-            <td className="px-4 text-sky-400">document</td>
+            <td className="html-cell-label">Implicit ARIA role</td>
+            <td>
+              <AriaRole role="document" />
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">DOM interface</td>
-            <td className="px-4 text-sky-400">HTMLHtmlElement</td>
-          </tr>
-          <tr>
-            <td className="w-32 text-slate-200">Attributes</td>
-            <td className="px-4 text-sky-400">lang</td>
+            <td className="html-cell-label">DOM interface</td>
+            <td>
+              <DomInterface element="HTMLHtmlElement" />
+            </td>
           </tr>
         </tbody>
       </table>

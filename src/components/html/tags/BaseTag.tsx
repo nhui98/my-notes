@@ -1,26 +1,28 @@
+import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 
 const BaseTag = () => (
-  <div className="flex gap-x-4">
-    <div className="w-[100px]">
+  <div className="html-tag-container">
+    <div className="html-tag">
       <Tag tag="base" />
     </div>
-    <div className="flex flex-col gap-y-1">
+    <div className="html-tag-content">
       <div>
         Base URL to use for all relative URLs in a document. Only one{" "}
         {<Tag tag="base" />} allowed in a document. <br />
-        If no {<Tag tag="base" />} then baseURI defaults to{" "}
-        <span className="text-sky-400">location.href</span>
+        If no {<Tag tag="base" />} then baseURI defaults to location.href
       </div>
       <table className="table-auto">
         <tbody className="text-sm">
           <tr>
-            <td className="w-32 text-slate-200">DOM Interface</td>
-            <td className="px-4 text-sky-400">HTMLBaseElement</td>
+            <td className="html-cell-label">DOM Interface</td>
+            <td>
+              <DomInterface element="HTMLBaseElement" />
+            </td>
           </tr>
           <tr>
-            <td className="w-32 text-slate-200">Attributes</td>
-            <td className="px-4 text-sky-400">href target</td>
+            <td className="html-cell-label">Attributes</td>
+            <td>href target</td>
           </tr>
         </tbody>
       </table>
