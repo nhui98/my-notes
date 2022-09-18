@@ -15,15 +15,15 @@ const NavTag = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
+            <td className="html-cell-label">DOM Interface</td>
             <td>
-              <AriaRole role="navigation" />
+              <DomInterface element="HTMLElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
+            <td className="html-cell-label">Implicit ARIA role</td>
             <td>
-              <DomInterface element="HTMLElement" />
+              <AriaRole role="navigation" />
             </td>
           </tr>
         </tbody>

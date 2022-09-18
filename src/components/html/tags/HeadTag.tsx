@@ -20,7 +20,7 @@ const HeadTag = () => (
             </td>
           </tr>
           <tr className="html-tag-trow">
-            <td className="html-cell-label">Can Contain</td>
+            <td className="html-cell-label">Permitted Content</td>
             <td>
               <Tag tag="title" /> <Tag tag="base" /> <Tag tag="link" />{" "}
               <Tag tag="style" /> <Tag tag="meta" /> <Tag tag="script" />{" "}

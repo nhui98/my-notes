@@ -17,6 +17,12 @@ const Template = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
+            <td className="html-cell-label">DOM Interface</td>
+            <td>
+              <DomInterface element="" />
+            </td>
+          </tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="" />
@@ -26,12 +32,6 @@ const Template = () => (
             <td className="html-cell-label">Permitted ARIA roles</td>
             <td>
               <AriaRole role="" /> <AriaRole role="" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
-            <td>
-              <DomInterface element="" />
             </td>
           </tr>
         </tbody>

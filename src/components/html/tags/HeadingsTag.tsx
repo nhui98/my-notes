@@ -21,6 +21,12 @@ const HeadingsTag = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
+            <td className="html-cell-label">DOM Interface</td>
+            <td>
+              <DomInterface element="HTMLHeadingElement" />
+            </td>
+          </tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="heading" />
@@ -31,12 +37,6 @@ const HeadingsTag = () => (
             <td>
               <AriaRole role="tab" /> <AriaRole role="presentation" />{" "}
               <AriaRole role="none" />{" "}
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
-            <td>
-              <DomInterface element="HTMLHeadingElement" />
             </td>
           </tr>
         </tbody>

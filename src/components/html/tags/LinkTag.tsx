@@ -14,15 +14,15 @@ const LinkTag = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
+            <td className="html-cell-label">DOM Interface</td>
             <td>
-              <AriaRole role="link" /> with href attribute
+              <DomInterface element="HTMLLinkElement" />
             </td>
           </tr>
           <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
+            <td className="html-cell-label">Implicit ARIA role</td>
             <td>
-              <DomInterface element="HTMLLinkElement" />
+              <AriaRole role="link" /> with href attribute
             </td>
           </tr>
           <tr className="html-tag-trow">

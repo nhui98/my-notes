@@ -15,15 +15,15 @@ const ContentSectioning = () => (
   <section className="html-section">
     <SectionTitle title="Content Sectioning" />
     <div className="html-section-layout">
-      <SectionTag />
-      <MainTag />
-      <NavTag />
-      <HeaderTag />
-      <FooterTag />
-      <AsideTag />
       <AddressTag />
       <ArticleTag />
+      <AsideTag />
+      <FooterTag />
+      <HeaderTag />
       <HeadingsTag />
+      <MainTag />
+      <NavTag />
+      <SectionTag />
     </div>
   </section>
 );

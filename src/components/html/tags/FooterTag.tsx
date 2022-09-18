@@ -15,6 +15,12 @@ const FooterTag = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
+            <td className="html-cell-label">DOM Interface</td>
+            <td>
+              <DomInterface element="HTMLElement" />
+            </td>
+          </tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="contentinfo" />, no corresponding role
@@ -25,12 +31,6 @@ const FooterTag = () => (
             <td>
               <AriaRole role="group" /> <AriaRole role="presentation" />{" "}
               <AriaRole role="none" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
-            <td>
-              <DomInterface element="HTMLElement" />
             </td>
           </tr>
         </tbody>

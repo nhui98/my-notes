@@ -15,6 +15,12 @@ const AsideTag = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
+            <td className="html-cell-label">DOM Interface</td>
+            <td>
+              <DomInterface element="HTMLElement" />
+            </td>
+          </tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="complementary" />
@@ -26,12 +32,6 @@ const AsideTag = () => (
               <AriaRole role="feed" /> <AriaRole role="none" />{" "}
               <AriaRole role="note" /> <AriaRole role="presentation" />{" "}
               <AriaRole role="region" /> <AriaRole role="search" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
-            <td>
-              <DomInterface element="HTMLElement" />
             </td>
           </tr>
         </tbody>

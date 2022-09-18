@@ -15,7 +15,7 @@ const AddressTag = () => (
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
           <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM interface</td>
+            <td className="html-cell-label">DOM Interface</td>
             <td>
               <DomInterface element="HTMLElement" />
             </td>
