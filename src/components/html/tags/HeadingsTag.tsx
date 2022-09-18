@@ -15,8 +15,8 @@ const HeadingsTag = () => (
 
     <div className="html-tag-content">
       <div>
-        Represents six levels of section headings. <Tag tag="h1" />
-        is the highest section level and <Tag tag="h6" /> is the lowest.
+        Represents six levels of section headings. <Tag tag="h1" /> is the
+        highest section level and <Tag tag="h6" /> is the lowest.
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
