@@ -18,22 +18,22 @@ const HeadingsTag = () => (
         Represents six levels of section headings. <Tag tag="h1" />
         is the highest section level and <Tag tag="h6" /> is the lowest.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="heading" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
             <td>
               <AriaRole role="tab" /> <AriaRole role="presentation" />{" "}
               <AriaRole role="none" />{" "}
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLHeadingElement" />

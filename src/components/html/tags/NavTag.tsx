@@ -12,15 +12,15 @@ const NavTag = () => (
         Represents a section of a page whose purpose is to provide navigation
         links, either within the current document or to other documents.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="navigation" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLElement" />

@@ -11,15 +11,15 @@ const MainTag = () => (
       <div>
         Represents the dominant content of the <Tag tag="body" /> of a document.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="main" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLElement" />

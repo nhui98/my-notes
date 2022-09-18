@@ -11,15 +11,15 @@ const MetaTag = () => (
         Represents metadata that cannot be represented by other HTML
         meta-related elements.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLMetaElement" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
             <td>name content http-equiv charset</td>
           </tr>

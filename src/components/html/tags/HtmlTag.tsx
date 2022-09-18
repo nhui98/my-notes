@@ -7,17 +7,18 @@ const HtmlTag = () => (
     <div className="html-tag">
       <Tag tag="html" />
     </div>
-    <div className="flex w-full flex-col gap-y-1">
+
+    <div className="html-tag-content">
       <div>Root element of a HTML document.</div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="document" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLHtmlElement" />

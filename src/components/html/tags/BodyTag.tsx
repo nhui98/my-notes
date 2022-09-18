@@ -9,21 +9,21 @@ const BodyTag = () => (
     </div>
     <div className="html-tag-content">
       <div>Represents the content of a HTML document.</div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="generic" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
             <td>
               <DomInterface element="HTMLBodyElement" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
             <td>onblur onfocus onerror onload onunload onresize</td>
           </tr>

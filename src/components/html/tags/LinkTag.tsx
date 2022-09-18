@@ -11,21 +11,21 @@ const LinkTag = () => (
       <div>
         Specifies relationships between current document and external resources.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="link" /> with href attribute
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLLinkElement" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
             <td>
               as crossorigin href hreflang imagesizes imagesrcset integrity

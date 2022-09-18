@@ -12,15 +12,15 @@ const AsideTag = () => (
         Represents a portion of a document whose content is only indirectly
         related to the document&apos;s main content.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="complementary" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
             <td>
               <AriaRole role="feed" /> <AriaRole role="none" />{" "}
@@ -28,7 +28,7 @@ const AsideTag = () => (
               <AriaRole role="region" /> <AriaRole role="search" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLElement" />

@@ -12,9 +12,9 @@ const AddressTag = () => (
         Indicates that the enclosed HTML provides contact information for a
         person or people, or for an organization.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLElement" />

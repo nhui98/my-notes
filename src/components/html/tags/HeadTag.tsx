@@ -11,15 +11,15 @@ const HeadTag = () => (
       <div>
         Contains machine-readable information (metadata) about the document.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
             <td>
               <DomInterface element="HTMLHeadElement" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Can Contain</td>
             <td>
               <Tag tag="title" /> <Tag tag="base" /> <Tag tag="link" />{" "}

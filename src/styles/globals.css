@@ -32,18 +32,30 @@
   }
 
   .html-tag-container {
-    @apply flex gap-x-4;
+    @apply flex flex-col gap-y-2 lg:flex-row;
   }
 
   .html-tag {
-    @apply w-[100px];
+    @apply w-full lg:w-32;
   }
 
   .html-tag-content {
-    @apply flex flex-col gap-y-1;
+    @apply flex w-full flex-col gap-y-2 lg:w-[calc(100%-8rem)];
+  }
+
+  .html-tag-table {
+    @apply table-auto text-sm;
+  }
+
+  .html-tag-tbody {
+    @apply flex flex-col gap-y-2 sm:gap-y-1;
+  }
+
+  .html-tag-trow {
+    @apply flex flex-col sm:block;
   }
 
   .html-cell-label {
-    @apply w-32 text-slate-200;
+    @apply w-full align-top text-base text-slate-200 sm:w-32 sm:text-sm;
   }
 }

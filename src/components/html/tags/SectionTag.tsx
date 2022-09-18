@@ -13,16 +13,16 @@ const SectionTag = () => (
         more specific semantic element to represent it. Should always have a
         heading.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="region" /> if the element has an{" "}
               <AriaRole role="accessible name" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
             <td>
               <AriaRole role="alert" /> <AriaRole role="alertdialog" />{" "}
@@ -37,7 +37,7 @@ const SectionTag = () => (
               <AriaRole role="tabpanel" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLElement" />

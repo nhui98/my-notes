@@ -8,19 +8,19 @@ const StyleTag = () => (
     </div>
     <div className="html-tag-content">
       <div>Contains style information for a document.</div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted Content</td>
             <td>Text content of type text/css</td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLStyleElement" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
             <td>media title nonce</td>
           </tr>

@@ -12,15 +12,15 @@ const BaseTag = () => (
         {<Tag tag="base" />} allowed in a document. <br />
         If no {<Tag tag="base" />} then baseURI defaults to location.href
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
             <td>
               <DomInterface element="HTMLBaseElement" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Attributes</td>
             <td>href target</td>
           </tr>

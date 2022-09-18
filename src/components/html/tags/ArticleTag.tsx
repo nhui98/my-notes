@@ -14,15 +14,15 @@ const ArticleTag = () => (
         application, or site, which is intended to be independently
         distributable or reusable (e.g., in syndication).
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Implicit ARIA role</td>
             <td>
               <AriaRole role="article" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">Permitted ARIA roles</td>
             <td>
               <AriaRole role="application" /> <AriaRole role="document" />{" "}
@@ -31,7 +31,7 @@ const ArticleTag = () => (
               <AriaRole role="region" />
             </td>
           </tr>
-          <tr>
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLElement" />

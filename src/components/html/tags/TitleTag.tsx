@@ -11,9 +11,9 @@ const TitleTag = () => (
         Defines document&apos;s title shown in browser&apos;s title bar or a
         page&apos;s tab. Only contains text, ignores tags.
       </div>
-      <table className="table-auto">
-        <tbody className="text-sm">
-          <tr>
+      <table className="html-tag-table">
+        <tbody className="html-tag-tbody">
+          <tr className="html-tag-trow">
             <td className="html-cell-label">DOM interface</td>
             <td>
               <DomInterface element="HTMLTitleElement" />
