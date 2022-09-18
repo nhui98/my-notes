@@ -4,7 +4,7 @@ import { HtmlTag } from "../tags";
 const MainRoot = () => (
   <section className="html-section">
     <SectionTitle title="Main Root" />
-    <div className="flex flex-col gap-y-8">
+    <div className="html-section-layout">
       <HtmlTag />
     </div>
   </section>

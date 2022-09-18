@@ -11,7 +11,7 @@ import {
 const DocumentMetadata = () => (
   <section className="html-section">
     <SectionTitle title="Document Metadata" />
-    <div className="flex flex-col gap-y-8">
+    <div className="html-section-layout">
       <HeadTag />
       <BaseTag />
       <LinkTag />

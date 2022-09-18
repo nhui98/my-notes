@@ -14,7 +14,7 @@ import {
 const ContentSectioning = () => (
   <section className="html-section">
     <SectionTitle title="Content Sectioning" />
-    <div className="flex flex-col gap-y-8">
+    <div className="html-section-layout">
       <SectionTag />
       <MainTag />
       <NavTag />
