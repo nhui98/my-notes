@@ -87,6 +87,8 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLPictureElement",
   HTMLSourceElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSourceElement",
+  HTMLIFrameElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement",
 } as {
   [key: string]: string;
 };

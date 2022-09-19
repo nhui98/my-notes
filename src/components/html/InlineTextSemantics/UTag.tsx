@@ -18,7 +18,7 @@ const UTag = () => (
           <tr className="html-tag-trow">
             <td className="html-cell-label">DOM Interface</td>
             <td className="html-cell-details">
-              <DomInterface element="	HTMLElement" />
+              <DomInterface element="HTMLElement" />
             </td>
           </tr>
         </tbody>
