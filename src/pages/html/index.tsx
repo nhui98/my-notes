@@ -1,5 +1,6 @@
 import ContentSectioning from "@components/html/ContentSectioning";
 import DocumentMetadata from "@components/html/DocumentMetadata";
+import EmbeddedContent from "@components/html/EmbeddedContent";
 import ImageAndMultimedia from "@components/html/ImageAndMultimedia";
 import InlineTextSemantics from "@components/html/InlineTextSemantics";
 import MainRoot from "@components/html/MainRoot";
@@ -19,6 +20,7 @@ const Html: NextPage = () => (
       <TextContent />
       <InlineTextSemantics />
       <ImageAndMultimedia />
+      <EmbeddedContent />
     </main>
   </div>
 );

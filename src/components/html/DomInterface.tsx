@@ -79,6 +79,14 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement",
   HTMLVideoElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement",
+  HTMLEmbedElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLEmbedElement",
+  HTMLObjectElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLObjectElement",
+  HTMLPictureElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLPictureElement",
+  HTMLSourceElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSourceElement",
 } as {
   [key: string]: string;
 };

@@ -77,6 +77,7 @@ const ARIA_ROLE_LINKS = {
   toolbar: "https://w3c.github.io/aria/#toolbar",
   tree: "https://w3c.github.io/aria/#tree",
   img: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/img_role",
+  image: "https://w3c.github.io/aria/#image",
   progressbar: "https://w3c.github.io/aria/#progressbar",
   scrollbar: "https://w3c.github.io/aria/#scrollbar",
   slider: "https://w3c.github.io/aria/#slider",
