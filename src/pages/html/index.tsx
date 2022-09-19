@@ -1,13 +1,11 @@
+import ContentSectioning from "@components/html/ContentSectioning";
+import DocumentMetadata from "@components/html/DocumentMetadata";
+import ImageAndMultimedia from "@components/html/ImageAndMultimedia";
+import InlineTextSemantics from "@components/html/InlineTextSemantics";
+import MainRoot from "@components/html/MainRoot";
 import PageTitle from "@components/html/PageTitle";
-import {
-  ContentSectioning,
-  DocumentMetadata,
-  ImageAndMultimedia,
-  InlineTextSemantics,
-  MainRoot,
-  SectioningRoot,
-  TextContent,
-} from "@components/html/sections";
+import SectioningRoot from "@components/html/SectioningRoot";
+import TextContent from "@components/html/TextContent";
 import { NextPage } from "next";
 
 const Html: NextPage = () => (

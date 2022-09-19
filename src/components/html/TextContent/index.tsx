@@ -1,20 +1,18 @@
 import SectionTitle from "../SectionTitle";
-import {
-  BlockquoteTag,
-  DDTag,
-  DivTag,
-  DLTag,
-  DTTag,
-  FigcaptionTag,
-  FigureTag,
-  HRTag,
-  LITag,
-  MenuTag,
-  OLTag,
-  PreTag,
-  PTag,
-  ULTag,
-} from "../tags";
+import BlockquoteTag from "./BlockquoteTag";
+import DDTag from "./DDTag";
+import DivTag from "./DivTag";
+import DLTag from "./DLTag";
+import DTTag from "./DTTag";
+import FigcaptionTag from "./FigcaptionTag";
+import FigureTag from "./FigureTag";
+import HRTag from "./HRTag";
+import LITag from "./LITag";
+import MenuTag from "./MenuTag";
+import OLTag from "./OLTag";
+import PreTag from "./PreTag";
+import PTag from "./PTag";
+import ULTag from "./ULTag";
 
 const TextContent = () => (
   <section className="html-section">

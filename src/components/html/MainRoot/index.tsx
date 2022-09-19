@@ -1,5 +1,5 @@
 import SectionTitle from "../SectionTitle";
-import { HtmlTag } from "../tags";
+import HtmlTag from "./HtmlTag";
 
 const MainRoot = () => (
   <section className="html-section">

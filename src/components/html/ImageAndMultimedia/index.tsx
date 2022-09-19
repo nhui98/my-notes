@@ -1,5 +1,10 @@
 import SectionTitle from "../SectionTitle";
-import { AreaTag, AudioTag, ImgTag, MapTag, TrackTag, VideoTag } from "../tags";
+import AreaTag from "./AreaTag";
+import AudioTag from "./AudioTag";
+import ImgTag from "./ImgTag";
+import MapTag from "./MapTag";
+import TrackTag from "./TrackTag";
+import VideoTag from "./VideoTag";
 
 const ImageAndMultimedia = () => (
   <section className="html-section">

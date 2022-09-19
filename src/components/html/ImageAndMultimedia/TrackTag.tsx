@@ -1,4 +1,3 @@
-import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
 import Tag from "../Tag";
 

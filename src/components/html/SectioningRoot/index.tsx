@@ -1,5 +1,5 @@
 import SectionTitle from "../SectionTitle";
-import BodyTag from "../tags/BodyTag";
+import BodyTag from "./BodyTag";
 
 const SectioningRoot = () => (
   <section className="html-section">
