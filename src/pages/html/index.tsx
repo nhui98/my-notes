@@ -5,6 +5,7 @@ import ImageAndMultimedia from "@components/html/ImageAndMultimedia";
 import InlineTextSemantics from "@components/html/InlineTextSemantics";
 import MainRoot from "@components/html/MainRoot";
 import PageTitle from "@components/html/PageTitle";
+import Scripting from "@components/html/Scripting";
 import SectioningRoot from "@components/html/SectioningRoot";
 import SVGandMathML from "@components/html/SVGandMathML";
 import TextContent from "@components/html/TextContent";
@@ -23,6 +24,7 @@ const Html: NextPage = () => (
       <ImageAndMultimedia />
       <EmbeddedContent />
       <SVGandMathML />
+      <Scripting />
     </main>
   </div>
 );
