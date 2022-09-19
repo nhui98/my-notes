@@ -5,6 +5,7 @@ import EmbeddedContent from "@components/html/EmbeddedContent";
 import Forms from "@components/html/Forms";
 import ImageAndMultimedia from "@components/html/ImageAndMultimedia";
 import InlineTextSemantics from "@components/html/InlineTextSemantics";
+import InteractiveElements from "@components/html/InteractiveElements";
 import MainRoot from "@components/html/MainRoot";
 import PageTitle from "@components/html/PageTitle";
 import Scripting from "@components/html/Scripting";
@@ -31,6 +32,7 @@ const Html: NextPage = () => (
       <DemarcatingEdits />
       <TableContents />
       <Forms />
+      <InteractiveElements />
     </main>
   </div>
 );

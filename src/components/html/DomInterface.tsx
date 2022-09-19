@@ -19,6 +19,10 @@ interface DomInterfaceProps {
 }
 
 const DOM_INTERFACE_LINKS = {
+  HTMLDialogElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement",
+  HTMLDetailsElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDetailsElement",
   HTMLTextAreaElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement",
   HTMLSelectElement:
