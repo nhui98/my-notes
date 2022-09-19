@@ -95,6 +95,18 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement",
   HTMLModElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLModElement",
+  HTMLTableCaptionElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCaptionElement",
+  HTMLTableColElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableColElement",
+  HTMLTableElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement",
+  HTMLTableSectionElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableSectionElement",
+  HTMLTableCellElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement",
+  HTMLTableRowElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableRowElement",
 } as {
   [key: string]: string;
 };

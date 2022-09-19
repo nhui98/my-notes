@@ -9,6 +9,7 @@ import PageTitle from "@components/html/PageTitle";
 import Scripting from "@components/html/Scripting";
 import SectioningRoot from "@components/html/SectioningRoot";
 import SVGandMathML from "@components/html/SVGandMathML";
+import TableContents from "@components/html/TableContent";
 import TextContent from "@components/html/TextContent";
 import { NextPage } from "next";
 
@@ -27,6 +28,7 @@ const Html: NextPage = () => (
       <SVGandMathML />
       <Scripting />
       <DemarcatingEdits />
+      <TableContents />
     </main>
   </div>
 );

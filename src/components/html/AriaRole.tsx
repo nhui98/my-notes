@@ -81,6 +81,14 @@ const ARIA_ROLE_LINKS = {
   progressbar: "https://w3c.github.io/aria/#progressbar",
   scrollbar: "https://w3c.github.io/aria/#scrollbar",
   slider: "https://w3c.github.io/aria/#slider",
+  table:
+    "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/table_role",
+  columnheader: "https://w3c.github.io/aria/#columnheader",
+  rowheader: "https://w3c.github.io/aria/#rowheader",
+  rowgroup:
+    "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/rowgroup_role",
+  cell: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/cell_role",
+  row: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/row_role",
 } as {
   [key: string]: string;
 };
