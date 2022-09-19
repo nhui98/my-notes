@@ -19,6 +19,10 @@ interface DomInterfaceProps {
 }
 
 const DOM_INTERFACE_LINKS = {
+  HTMLTemplateElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement",
+  HTMLSlotElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement",
   HTMLDialogElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement",
   HTMLDetailsElement:

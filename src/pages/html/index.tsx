@@ -13,6 +13,7 @@ import SectioningRoot from "@components/html/SectioningRoot";
 import SVGandMathML from "@components/html/SVGandMathML";
 import TableContents from "@components/html/TableContent";
 import TextContent from "@components/html/TextContent";
+import WebComponent from "@components/html/WebComponents";
 import { NextPage } from "next";
 
 const Html: NextPage = () => (
@@ -33,6 +34,7 @@ const Html: NextPage = () => (
       <TableContents />
       <Forms />
       <InteractiveElements />
+      <WebComponent />
     </main>
   </div>
 );
