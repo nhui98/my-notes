@@ -93,6 +93,8 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLCanvasElement",
   HTMLScriptElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLScriptElement",
+  HTMLModElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLModElement",
 } as {
   [key: string]: string;
 };

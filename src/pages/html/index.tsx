@@ -1,4 +1,5 @@
 import ContentSectioning from "@components/html/ContentSectioning";
+import DemarcatingEdits from "@components/html/DemarcatingEdits";
 import DocumentMetadata from "@components/html/DocumentMetadata";
 import EmbeddedContent from "@components/html/EmbeddedContent";
 import ImageAndMultimedia from "@components/html/ImageAndMultimedia";
@@ -25,6 +26,7 @@ const Html: NextPage = () => (
       <EmbeddedContent />
       <SVGandMathML />
       <Scripting />
+      <DemarcatingEdits />
     </main>
   </div>
 );
