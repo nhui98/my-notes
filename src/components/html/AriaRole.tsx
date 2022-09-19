@@ -89,6 +89,9 @@ const ARIA_ROLE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/rowgroup_role",
   cell: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/cell_role",
   row: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/row_role",
+  combobox: "https://w3c.github.io/aria/#combobox",
+  textbox:
+    "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/textbox_role",
 } as {
   [key: string]: string;
 };

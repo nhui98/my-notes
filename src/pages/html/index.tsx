@@ -2,6 +2,7 @@ import ContentSectioning from "@components/html/ContentSectioning";
 import DemarcatingEdits from "@components/html/DemarcatingEdits";
 import DocumentMetadata from "@components/html/DocumentMetadata";
 import EmbeddedContent from "@components/html/EmbeddedContent";
+import Forms from "@components/html/Forms";
 import ImageAndMultimedia from "@components/html/ImageAndMultimedia";
 import InlineTextSemantics from "@components/html/InlineTextSemantics";
 import MainRoot from "@components/html/MainRoot";
@@ -29,6 +30,7 @@ const Html: NextPage = () => (
       <Scripting />
       <DemarcatingEdits />
       <TableContents />
+      <Forms />
     </main>
   </div>
 );

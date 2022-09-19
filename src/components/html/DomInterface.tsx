@@ -19,6 +19,20 @@ interface DomInterfaceProps {
 }
 
 const DOM_INTERFACE_LINKS = {
+  HTMLTextAreaElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTextAreaElement",
+  HTMLSelectElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLSelectElement",
+  HTMLProgressElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLProgressElement",
+  HTMLOutputElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOutputElement",
+  HTMLOptionElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptionElement",
+  HTMLOptGroupElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLOptGroupElement",
+  HTMLMeterElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMeterElement",
   HTMLHtmlElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLHtmlElement",
   HTMLHeadElement:
@@ -107,6 +121,20 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableCellElement",
   HTMLTableRowElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableRowElement",
+  HTMLButtonElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLButtonElement",
+  HTMLDataListElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataListElement",
+  HTMLFieldSetElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFieldSetElement",
+  HTMLFormElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement",
+  HTMLInputElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement",
+  HTMLLabelElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLabelElement",
+  HTMLLegendElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLLegendElement",
 } as {
   [key: string]: string;
 };
