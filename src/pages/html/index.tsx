@@ -18,7 +18,7 @@ import { NextPage } from "next";
 
 const Html: NextPage = () => (
   <div>
-    <main>
+    <main className="py-10">
       <PageTitle heading="HTML" subheading="Elements" />
       <MainRoot />
       <DocumentMetadata />
