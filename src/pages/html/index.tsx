@@ -2,6 +2,7 @@ import PageTitle from "@components/html/PageTitle";
 import {
   ContentSectioning,
   DocumentMetadata,
+  ImageAndMultimedia,
   InlineTextSemantics,
   MainRoot,
   SectioningRoot,
@@ -19,6 +20,7 @@ const Html: NextPage = () => (
       <ContentSectioning />
       <TextContent />
       <InlineTextSemantics />
+      <ImageAndMultimedia />
     </main>
   </div>
 );

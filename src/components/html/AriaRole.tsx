@@ -76,6 +76,10 @@ const ARIA_ROLE_LINKS = {
   treeitem: "https://w3c.github.io/aria/#treeitem",
   toolbar: "https://w3c.github.io/aria/#toolbar",
   tree: "https://w3c.github.io/aria/#tree",
+  img: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/img_role",
+  progressbar: "https://w3c.github.io/aria/#progressbar",
+  scrollbar: "https://w3c.github.io/aria/#scrollbar",
+  slider: "https://w3c.github.io/aria/#slider",
 } as {
   [key: string]: string;
 };

@@ -67,6 +67,18 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataElement",
   HTMLTimeElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTimeElement",
+  HTMLAreaElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAreaElement",
+  HTMLAudioElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAudioElement",
+  HTMLImageElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement",
+  HTMLMapElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLMapElement",
+  HTMLTrackElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement",
+  HTMLVideoElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLVideoElement",
 } as {
   [key: string]: string;
 };
