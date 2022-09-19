@@ -59,6 +59,14 @@ const DOM_INTERFACE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLParagraphElement",
   HTMLPreElement:
     "https://developer.mozilla.org/en-US/docs/Web/API/HTMLPreElement",
+  HTMLAnchorElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLAnchorElement",
+  HTMLBRElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLBRElement",
+  HTMLDataElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLDataElement",
+  HTMLTimeElement:
+    "https://developer.mozilla.org/en-US/docs/Web/API/HTMLTimeElement",
 } as {
   [key: string]: string;
 };

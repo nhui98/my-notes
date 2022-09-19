@@ -25,6 +25,8 @@ const ARIA_ROLE_LINKS = {
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/article_role",
   application: "https://w3c.github.io/aria/#application",
   banner: "https://w3c.github.io/aria/#banner",
+  button: "https://w3c.github.io/aria/#button",
+  checkbox: "https://w3c.github.io/aria/#checkbox",
   complementary:
     "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/complementary_role",
   contentinfo:
@@ -64,6 +66,7 @@ const ARIA_ROLE_LINKS = {
   radio: "https://w3c.github.io/aria/#radio",
   radiogroup: "https://w3c.github.io/aria/#radiogroup",
   search: "https://w3c.github.io/aria/#search",
+  switch: "https://w3c.github.io/aria/#switch",
   seperator: "https://w3c.github.io/aria/#separator",
   status: "https://w3c.github.io/aria/#status",
   tab: "https://w3c.github.io/aria/#tab",
