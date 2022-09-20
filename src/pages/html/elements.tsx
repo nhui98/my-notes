@@ -1,3 +1,5 @@
+import Flyout from "@components/common/Flyout/Flyout";
+import Sidebar from "@components/common/Sidebar/Sidebar";
 import ContentSectioning from "@components/html/ContentSectioning";
 import DemarcatingEdits from "@components/html/DemarcatingEdits";
 import DocumentMetadata from "@components/html/DocumentMetadata";
@@ -14,11 +16,19 @@ import SVGandMathML from "@components/html/SVGandMathML";
 import TableContents from "@components/html/TableContent";
 import TextContent from "@components/html/TextContent";
 import WebComponent from "@components/html/WebComponents";
+import { SIDEBAR_LINKS } from "@constants/data-html";
 import { NextPage } from "next";
+import Head from "next/head";
 
 const Html: NextPage = () => (
   <div>
-    <main className="py-10">
+    <Head>
+      <title>HTML | Elements</title>
+    </Head>
+
+    <Flyout links={SIDEBAR_LINKS} />
+    <Sidebar links={SIDEBAR_LINKS} />
+    <main className="py-8 lg:pl-60">
       <PageTitle heading="HTML" subheading="Elements" />
       <MainRoot />
       <DocumentMetadata />
