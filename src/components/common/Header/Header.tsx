@@ -1,6 +1,6 @@
 import { LINKS } from "@constants/data";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AiFillGithub, AiOutlineMore } from "react-icons/ai";
 
 import HeaderModal from "./HeaderModal";
@@ -15,8 +15,20 @@ const Header = () => {
       : (window.document.body.style.overflowY = "auto");
   };
 
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+
+    function handleResize() {
+      setModal(false);
+    }
+  }, []);
+
   return (
-    <>
+    <div className={`fixed top-0 z-50 w-full transition-all duration-500`}>
       <HeaderModal isModalOpen={isModalOpen} setModal={setModal} />
       <nav className="border-b border-slate-300/10 bg-slate-900">
         <div className="m-auto max-w-[90rem] px-4 md:px-8">
@@ -60,7 +72,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-    </>
+    </div>
   );
 };
 
