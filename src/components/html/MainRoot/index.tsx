@@ -1,9 +1,10 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import HtmlTag from "./HtmlTag";
 
 const MainRoot = () => (
   <section className="html-section">
-    <SectionTitle title="Main Root" />
+    <PageTitle heading="HTML" subheading="Elements" description="Main Root" />
+
     <div className="html-section-layout">
       <HtmlTag />
     </div>

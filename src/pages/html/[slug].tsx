@@ -1,6 +1,5 @@
 import Flyout from "@components/common/Flyout/Flyout";
 import Sidebar from "@components/common/Sidebar/Sidebar";
-import PageTitle from "@components/html/PageTitle";
 import { SIDEBAR_LINKS } from "@constants/data-html";
 import { PATH_MAP } from "@utils/mappings/path-html";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
@@ -26,10 +25,7 @@ const Html: NextPage<HtmlProps> = ({ slug }) => {
 
       <Flyout links={SIDEBAR_LINKS} selectedLink={selectedLink} />
       <Sidebar links={SIDEBAR_LINKS} selectedLink={selectedLink} />
-      <main className="py-8 lg:pl-60">
-        <PageTitle heading="HTML" subheading="Elements" />
-        {PATH_MAP[slug]}
-      </main>
+      <main className="py-8 lg:pl-60">{PATH_MAP[slug]}</main>
     </div>
   );
 };
