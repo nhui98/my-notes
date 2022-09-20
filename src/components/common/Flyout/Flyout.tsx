@@ -1,21 +1,10 @@
 import { NextPage } from "next";
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 
-const Flyout: NextPage<FlyoutProps> = ({ links }) => {
-  const [selectedLink, setSelectedLink] = useState("");
+const Flyout: NextPage<FlyoutProps> = ({ links, selectedLink }) => {
   const [flyoutOpen, setFlyoutOpen] = useState(false);
-  const router = useRouter();
-
-  useEffect(() => {
-    const paths = router.route.split("/");
-    paths.shift();
-    const id = paths.join("-");
-
-    setSelectedLink(id);
-  }, [router.route]);
 
   useEffect(() => {
     window.addEventListener("resize", handleResize);
@@ -100,4 +89,5 @@ interface FlyoutProps {
       href: string;
     }[];
   }[];
+  selectedLink: string;
 }
