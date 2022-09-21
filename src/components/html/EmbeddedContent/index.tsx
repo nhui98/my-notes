@@ -8,13 +8,13 @@ import PortalTag from "./PortalTag";
 import SourceTag from "./SourceTag";
 
 const EmbeddedContent = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Embedded Content"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <EmbedTag />
       <IFrameTag />
       <ObjectTag />

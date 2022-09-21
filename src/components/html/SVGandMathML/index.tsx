@@ -4,13 +4,13 @@ import MathTag from "./MathTag";
 import SvgTag from "./SvgTag";
 
 const SVGandMathML = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="SVG and MathML"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <SvgTag />
       <MathTag />
     </div>

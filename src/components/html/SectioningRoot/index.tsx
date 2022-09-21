@@ -3,13 +3,13 @@ import PageTitle from "@components/common/PageTitle/PageTitle";
 import BodyTag from "./BodyTag";
 
 const SectioningRoot = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Sectioning Root"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <BodyTag />
     </div>
   </section>

@@ -5,14 +5,14 @@ import DialogTag from "./DialogTag";
 import SummaryTag from "./SummaryTag";
 
 const InteractiveElements = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Interactive Elements"
     />
 
-    <div className="html-section-layout">
+    <div className="section-layout">
       <DetailsTag />
       <DialogTag />
       <SummaryTag />

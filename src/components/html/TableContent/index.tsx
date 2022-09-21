@@ -12,13 +12,13 @@ import ThTag from "./ThTag";
 import TrTag from "./TrTag";
 
 const TableContents = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Table Contents"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <CaptionTag />
       <ColGroupTag />
       <ColTag />

@@ -8,13 +8,13 @@ import StyleTag from "./StyleTag";
 import TitleTag from "./TitleTag";
 
 const DocumentMetadata = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Document Metadata"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <HeadTag />
       <BaseTag />
       <LinkTag />

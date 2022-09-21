@@ -5,9 +5,9 @@ import NoScriptTag from "./NoScriptTag";
 import ScriptTag from "./ScriptTag";
 
 const Scripting = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle heading="HTML" subheading="Elements" description="Scripting" />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <CanvasTag />
       <NoScriptTag />
       <ScriptTag />

@@ -11,13 +11,13 @@ import NavTag from "./NavTag";
 import SectionTag from "./SectionTag";
 
 const ContentSectioning = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Content Sectioning"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <AddressTag />
       <ArticleTag />
       <AsideTag />

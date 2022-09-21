@@ -4,14 +4,14 @@ import DelTag from "./DelTag";
 import InsTag from "./InsTag";
 
 const DemarcatingEdits = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Demarcating Edits"
     />
 
-    <div className="html-section-layout">
+    <div className="section-layout">
       <DelTag />
       <InsTag />
     </div>

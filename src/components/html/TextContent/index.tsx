@@ -16,13 +16,13 @@ import PTag from "./PTag";
 import ULTag from "./ULTag";
 
 const TextContent = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Text Content"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <BlockquoteTag />
       <DivTag />
       <DLTag />

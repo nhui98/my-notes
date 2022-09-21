@@ -37,12 +37,11 @@
 }
 
 @layer components {
-  /* html */
-  .html-section {
+  .section {
     @apply py-8;
   }
 
-  .html-section-layout {
+  .section-layout {
     @apply flex flex-col gap-y-8;
   }
 

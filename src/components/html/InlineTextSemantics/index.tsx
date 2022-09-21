@@ -27,13 +27,13 @@ import UTag from "./UTag";
 import VarTag from "./VarTag";
 
 const InlineTextSemantics = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Inline Text Semantics"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <ATag />
       <AbbrTag />
       <BTag />

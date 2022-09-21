@@ -8,13 +8,13 @@ import TrackTag from "./TrackTag";
 import VideoTag from "./VideoTag";
 
 const ImageAndMultimedia = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle
       heading="HTML"
       subheading="Elements"
       description="Image and Multimedia"
     />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <AreaTag />
       <AudioTag />
       <ImgTag />

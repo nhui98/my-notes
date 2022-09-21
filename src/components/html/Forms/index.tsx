@@ -16,9 +16,9 @@ import SelectTag from "./SelectTag";
 import TextareaTag from "./TextareaTag";
 
 const Forms = () => (
-  <section className="html-section">
+  <section className="section">
     <PageTitle heading="HTML" subheading="Elements" description="Forms" />
-    <div className="html-section-layout">
+    <div className="section-layout">
       <ButtonTag />
       <DatalistTag />
       <FieldsetTag />
