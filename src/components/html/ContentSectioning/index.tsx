@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import AddressTag from "./AddressTag";
 import ArticleTag from "./ArticleTag";
 import AsideTag from "./AsideTag";
@@ -11,7 +11,11 @@ import SectionTag from "./SectionTag";
 
 const ContentSectioning = () => (
   <section className="html-section">
-    <SectionTitle title="Content Sectioning" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Content Sectioning"
+    />
     <div className="html-section-layout">
       <AddressTag />
       <ArticleTag />

@@ -1,9 +1,13 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import BodyTag from "./BodyTag";
 
 const SectioningRoot = () => (
   <section className="html-section">
-    <SectionTitle title="Sectioning Root" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Sectioning Root"
+    />
     <div className="html-section-layout">
       <BodyTag />
     </div>
