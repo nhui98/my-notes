@@ -1,4 +1,5 @@
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const SlotTag = () => (
@@ -14,16 +15,10 @@ const SlotTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLSlotElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">name</td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLSlotElement" />
+          </TableRow>
+          <TableRow label="Attributes">name</TableRow>
         </tbody>
       </table>
     </div>
