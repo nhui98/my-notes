@@ -1,3 +1,4 @@
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const SvgTag = () => (
@@ -13,12 +14,9 @@ const SvgTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              height preserveAspectRatio viewBox width x y
-            </td>
-          </tr>
+          <TableRow label="Attributes">
+            height preserveAspectRatio viewBox width x y
+          </TableRow>
         </tbody>
       </table>
     </div>

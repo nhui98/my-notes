@@ -1,3 +1,4 @@
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const MathTag = () => (
@@ -11,10 +12,7 @@ const MathTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">display</td>
-          </tr>
+          <TableRow label="Attributes">display</TableRow>
         </tbody>
       </table>
     </div>
