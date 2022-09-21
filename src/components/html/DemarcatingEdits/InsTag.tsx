@@ -1,4 +1,5 @@
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const InsTag = () => (
@@ -10,16 +11,10 @@ const InsTag = () => (
       <div>Represents a range of text that has been added to a document.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLModElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">cite datetime</td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLModElement" />
+          </TableRow>
+          <TableRow label="Attributes">cite datetime</TableRow>
         </tbody>
       </table>
     </div>
