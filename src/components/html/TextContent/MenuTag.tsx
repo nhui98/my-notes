@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const MenuTag = () => (
@@ -14,29 +15,20 @@ const MenuTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLMenuElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="list" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="directory" /> <AriaRole role="group" />{" "}
-              <AriaRole role="listbox" /> <AriaRole role="menu" />{" "}
-              <AriaRole role="menubar" /> <AriaRole role="none" />{" "}
-              <AriaRole role="presentation" /> <AriaRole role="radiogroup" />{" "}
-              <AriaRole role="tablist" /> <AriaRole role="toolbar" />{" "}
-              <AriaRole role="tree" />
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLMenuElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="list" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="directory" /> <AriaRole role="group" />{" "}
+            <AriaRole role="listbox" /> <AriaRole role="menu" />{" "}
+            <AriaRole role="menubar" /> <AriaRole role="none" />{" "}
+            <AriaRole role="presentation" /> <AriaRole role="radiogroup" />{" "}
+            <AriaRole role="tablist" /> <AriaRole role="toolbar" />{" "}
+            <AriaRole role="tree" />
+          </TableRow>
         </tbody>
       </table>
     </div>

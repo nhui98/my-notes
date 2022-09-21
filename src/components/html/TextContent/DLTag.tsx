@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const DLTag = () => (
@@ -16,19 +17,13 @@ const DLTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLDListElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="group" /> <AriaRole role="list" />{" "}
-              <AriaRole role="none" /> <AriaRole role="presentation" />
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLDListElement" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="group" /> <AriaRole role="list" />{" "}
+            <AriaRole role="none" /> <AriaRole role="presentation" />
+          </TableRow>
         </tbody>
       </table>
     </div>

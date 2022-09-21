@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import BlockquoteTag from "./BlockquoteTag";
 import DDTag from "./DDTag";
 import DivTag from "./DivTag";
@@ -16,7 +16,11 @@ import ULTag from "./ULTag";
 
 const TextContent = () => (
   <section className="html-section">
-    <SectionTitle title="Text Content" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Text Content"
+    />
     <div className="html-section-layout">
       <BlockquoteTag />
       <DivTag />
