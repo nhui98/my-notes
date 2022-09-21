@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const ButtonTag = () => (
@@ -15,35 +16,23 @@ const ButtonTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLButtonElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="button" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="checkbox" /> <AriaRole role="link" />{" "}
-              <AriaRole role="menuitem" /> <AriaRole role="menuitemcheckbox" />{" "}
-              <AriaRole role="menuitemradio" /> <AriaRole role="option" />{" "}
-              <AriaRole role="radio" /> <AriaRole role="switch" />{" "}
-              <AriaRole role="tab" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              autofocus disabled form formaction formenctype formmethod
-              formonvalidate formtarget name type value
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLButtonElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="button" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="checkbox" /> <AriaRole role="link" />{" "}
+            <AriaRole role="menuitem" /> <AriaRole role="menuitemcheckbox" />{" "}
+            <AriaRole role="menuitemradio" /> <AriaRole role="option" />{" "}
+            <AriaRole role="radio" /> <AriaRole role="switch" />{" "}
+            <AriaRole role="tab" />
+          </TableRow>
+          <TableRow label="Attributes">
+            autofocus disabled form formaction formenctype formmethod
+            formonvalidate formtarget name type value
+          </TableRow>
         </tbody>
       </table>
     </div>

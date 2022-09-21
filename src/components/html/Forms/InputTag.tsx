@@ -1,5 +1,5 @@
-import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const InputTag = () => (
@@ -14,12 +14,9 @@ const InputTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLInputElement" />
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLInputElement" />
+          </TableRow>
         </tbody>
       </table>
     </div>

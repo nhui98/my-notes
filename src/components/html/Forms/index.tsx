@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import ButtonTag from "./ButtonTag";
 import DatalistTag from "./DatalistTag";
 import FieldsetTag from "./FieldsetTag";
@@ -16,7 +16,7 @@ import TextareaTag from "./TextareaTag";
 
 const Forms = () => (
   <section className="html-section">
-    <SectionTitle title="Forms" />
+    <PageTitle heading="HTML" subheading="Elements" description="Forms" />
     <div className="html-section-layout">
       <ButtonTag />
       <DatalistTag />

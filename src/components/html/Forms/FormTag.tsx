@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const FormTag = () => (
@@ -14,32 +15,20 @@ const FormTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLFormElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="form" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="search" /> <AriaRole role="none" />{" "}
-              <AriaRole role="presentation" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              accept-charset autocomplete name rel action enctype method
-              novalidate target
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLFormElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="form" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="search" /> <AriaRole role="none" />{" "}
+            <AriaRole role="presentation" />
+          </TableRow>
+          <TableRow label="Attributes">
+            accept-charset autocomplete name rel action enctype method
+            novalidate target
+          </TableRow>
         </tbody>
       </table>
     </div>

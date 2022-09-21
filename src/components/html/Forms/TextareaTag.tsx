@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const TextareaTag = () => (
@@ -15,25 +16,16 @@ const TextareaTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLTextAreaElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="textbox" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              autocomplete autocorrect autofocus cols disabled form maxlength
-              minlength name placeholder readonly required rows spellcheck wrap
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLTextAreaElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="textbox" />
+          </TableRow>
+          <TableRow label="Attributes">
+            autocomplete autocorrect autofocus cols disabled form maxlength
+            minlength name placeholder readonly required rows spellcheck wrap
+          </TableRow>
         </tbody>
       </table>
     </div>
