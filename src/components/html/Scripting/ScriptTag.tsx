@@ -1,4 +1,5 @@
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const ScriptTag = () => (
@@ -13,19 +14,13 @@ const ScriptTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLScriptElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              async crossorigin defer fetchpriority integrity nomodule nonce
-              referrerpolicy src type
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLScriptElement" />
+          </TableRow>
+          <TableRow label="Attributes">
+            async crossorigin defer fetchpriority integrity nomodule nonce
+            referrerpolicy src type
+          </TableRow>
         </tbody>
       </table>
     </div>

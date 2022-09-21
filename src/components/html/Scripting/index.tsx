@@ -1,11 +1,11 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import CanvasTag from "./CanvasTag";
 import NoScriptTag from "./NoScriptTag";
 import ScriptTag from "./ScriptTag";
 
 const Scripting = () => (
   <section className="html-section">
-    <SectionTitle title="Scripting" />
+    <PageTitle heading="HTML" subheading="Elements" description="Scripting" />
     <div className="html-section-layout">
       <CanvasTag />
       <NoScriptTag />
