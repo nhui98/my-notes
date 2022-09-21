@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const TfootTag = () => (
@@ -11,18 +12,12 @@ const TfootTag = () => (
       <div>Defines a set of rows summarizing the columns of the table.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLTableSectionElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA Role</td>
-            <td className="html-cell-details">
-              <AriaRole role="rowgroup" />
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLTableSectionElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="rowgroup" />
+          </TableRow>
         </tbody>
       </table>
     </div>

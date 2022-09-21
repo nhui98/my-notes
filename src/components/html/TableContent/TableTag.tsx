@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const TableTag = () => (
@@ -11,18 +12,12 @@ const TableTag = () => (
       <div>Represents tabular data.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLTableElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA Role</td>
-            <td className="html-cell-details">
-              <AriaRole role="table" />
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLTableElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="table" />
+          </TableRow>
         </tbody>
       </table>
     </div>

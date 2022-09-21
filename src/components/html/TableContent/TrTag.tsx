@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const TrTag = () => (
@@ -11,18 +12,12 @@ const TrTag = () => (
       <div>Defines a row of cells in a table.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLTableRowElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA Role</td>
-            <td className="html-cell-details">
-              <AriaRole role="row" />
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLTableRowElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="row" />
+          </TableRow>
         </tbody>
       </table>
     </div>

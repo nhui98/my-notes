@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import CaptionTag from "./CaptionTag";
 import ColGroupTag from "./ColGroupTag";
 import ColTag from "./ColTag";
@@ -12,7 +12,11 @@ import TrTag from "./TrTag";
 
 const TableContents = () => (
   <section className="html-section">
-    <SectionTitle title="Table Contents" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Table Contents"
+    />
     <div className="html-section-layout">
       <CaptionTag />
       <ColGroupTag />

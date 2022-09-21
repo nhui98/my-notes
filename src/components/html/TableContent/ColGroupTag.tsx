@@ -1,4 +1,5 @@
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const ColGroupTag = () => (
@@ -10,16 +11,10 @@ const ColGroupTag = () => (
       <div>Defines a group of columns within a table.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLTableColElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">span</td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLTableColElement" />
+          </TableRow>
+          <TableRow label="Attributes">span</TableRow>
         </tbody>
       </table>
     </div>
