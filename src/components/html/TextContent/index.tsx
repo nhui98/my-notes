@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import BlockquoteTag from "./BlockquoteTag";
 import DDTag from "./DDTag";
 import DivTag from "./DivTag";

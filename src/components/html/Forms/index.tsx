@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import ButtonTag from "./ButtonTag";
 import DatalistTag from "./DatalistTag";
 import FieldsetTag from "./FieldsetTag";

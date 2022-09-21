@@ -1,4 +1,4 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "../../common/PageTitle/PageTitle";
 import HtmlTag from "./HtmlTag";
 
 const MainRoot = () => (

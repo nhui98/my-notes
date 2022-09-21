@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import DelTag from "./DelTag";
 import InsTag from "./InsTag";
 

@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import DetailsTag from "./DetailsTag";
 import DialogTag from "./DialogTag";
 import SummaryTag from "./SummaryTag";

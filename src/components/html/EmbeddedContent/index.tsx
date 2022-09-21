@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import EmbedTag from "./EmbedTag";
 import IFrameTag from "./IFrameTag";
 import ObjectTag from "./ObjectTag";

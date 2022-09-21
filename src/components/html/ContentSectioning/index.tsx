@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import AddressTag from "./AddressTag";
 import ArticleTag from "./ArticleTag";
 import AsideTag from "./AsideTag";

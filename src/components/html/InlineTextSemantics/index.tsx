@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import AbbrTag from "./AbbrTag";
 import ATag from "./ATag";
 import BdiTag from "./BdiTag";

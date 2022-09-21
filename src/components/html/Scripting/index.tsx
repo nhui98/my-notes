@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import CanvasTag from "./CanvasTag";
 import NoScriptTag from "./NoScriptTag";
 import ScriptTag from "./ScriptTag";

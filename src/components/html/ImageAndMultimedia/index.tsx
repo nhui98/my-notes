@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import AreaTag from "./AreaTag";
 import AudioTag from "./AudioTag";
 import ImgTag from "./ImgTag";

@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import CaptionTag from "./CaptionTag";
 import ColGroupTag from "./ColGroupTag";
 import ColTag from "./ColTag";

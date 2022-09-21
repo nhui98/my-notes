@@ -1,4 +1,5 @@
-import PageTitle from "../PageTitle";
+import PageTitle from "@components/common/PageTitle/PageTitle";
+
 import BodyTag from "./BodyTag";
 
 const SectioningRoot = () => (
