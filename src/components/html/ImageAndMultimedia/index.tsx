@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import AreaTag from "./AreaTag";
 import AudioTag from "./AudioTag";
 import ImgTag from "./ImgTag";
@@ -8,7 +8,11 @@ import VideoTag from "./VideoTag";
 
 const ImageAndMultimedia = () => (
   <section className="html-section">
-    <SectionTitle title="Image and Multimedia" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Image and Multimedia"
+    />
     <div className="html-section-layout">
       <AreaTag />
       <AudioTag />

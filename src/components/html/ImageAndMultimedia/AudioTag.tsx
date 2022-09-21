@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const AudioTag = () => (
@@ -17,25 +18,16 @@ const AudioTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLAudioElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="application" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              autoplay controls controlslist crossorigin disableremoteplayback
-              loop muted preload src
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLAudioElement" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="application" />
+          </TableRow>
+          <TableRow label="Attributes">
+            autoplay controls controlslist crossorigin disableremoteplayback
+            loop muted preload src
+          </TableRow>
         </tbody>
       </table>
     </div>
