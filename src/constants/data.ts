@@ -2,12 +2,12 @@ export const LINKS = [
   {
     id: 0,
     link: "HTML",
-    href: "/html",
+    href: "/html/mainroot",
   },
   {
     id: 1,
     link: "CSS",
-    href: "/css",
+    href: "/css/fundementals",
   },
   {
     id: 2,
