@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import AbbrTag from "./AbbrTag";
 import ATag from "./ATag";
 import BdiTag from "./BdiTag";
@@ -27,7 +27,11 @@ import VarTag from "./VarTag";
 
 const InlineTextSemantics = () => (
   <section className="html-section">
-    <SectionTitle title="Inline Text Semantics" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Inline Text Semantics"
+    />
     <div className="html-section-layout">
       <ATag />
       <AbbrTag />

@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const ATag = () => (
@@ -15,34 +16,22 @@ const ATag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLAnchorElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="link" /> when href attribue is present
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="button" /> <AriaRole role="checkbox" />{" "}
-              <AriaRole role="menuitem" /> <AriaRole role="menuitemradio" />{" "}
-              <AriaRole role="menuitemradio" /> <AriaRole role="option" />{" "}
-              <AriaRole role="radio" /> <AriaRole role="switch" />{" "}
-              <AriaRole role="tab" /> <AriaRole role="treeitem" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              href hreflang download referrerpolicy rel target type
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLAnchorElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="link" /> when href attribue is present
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="button" /> <AriaRole role="checkbox" />{" "}
+            <AriaRole role="menuitem" /> <AriaRole role="menuitemradio" />{" "}
+            <AriaRole role="menuitemradio" /> <AriaRole role="option" />{" "}
+            <AriaRole role="radio" /> <AriaRole role="switch" />{" "}
+            <AriaRole role="tab" /> <AriaRole role="treeitem" />
+          </TableRow>
+          <TableRow label="Attributes">
+            href hreflang download referrerpolicy rel target type
+          </TableRow>
         </tbody>
       </table>
     </div>
