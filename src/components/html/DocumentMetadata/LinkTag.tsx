@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const LinkTag = () => (
@@ -13,25 +14,16 @@ const LinkTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLLinkElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="link" /> with href attribute
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              as crossorigin href hreflang imagesizes imagesrcset integrity
-              media prefetch referrerpolicy rel sizes title type
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLLinkElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="link" /> with href attribute
+          </TableRow>
+          <TableRow label="Attributes">
+            as crossorigin href hreflang imagesizes imagesrcset integrity media
+            prefetch referrerpolicy rel sizes title type
+          </TableRow>
         </tbody>
       </table>
     </div>

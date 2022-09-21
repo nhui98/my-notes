@@ -19,9 +19,6 @@ const HtmlTag = () => (
           <TableRow label="Implicit ARIA Role">
             <AriaRole role="document" />
           </TableRow>
-          <TableRow label="Permitted Content">
-            One <Tag tag="head" /> followed by one <Tag tag="body" /> element.
-          </TableRow>
         </tbody>
       </table>
     </div>

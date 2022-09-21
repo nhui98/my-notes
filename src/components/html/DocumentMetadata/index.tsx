@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import BaseTag from "./BaseTag";
 import HeadTag from "./HeadTag";
 import LinkTag from "./LinkTag";
@@ -8,7 +8,11 @@ import TitleTag from "./TitleTag";
 
 const DocumentMetadata = () => (
   <section className="html-section">
-    <SectionTitle title="Document Metadata" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Document Metadata"
+    />
     <div className="html-section-layout">
       <HeadTag />
       <BaseTag />

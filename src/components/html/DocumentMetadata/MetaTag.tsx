@@ -1,4 +1,5 @@
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const MetaTag = () => (
@@ -13,18 +14,12 @@ const MetaTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLMetaElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              name content http-equiv charset
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLMetaElement" />
+          </TableRow>
+          <TableRow label="Attributes">
+            name content http-equiv charset
+          </TableRow>
         </tbody>
       </table>
     </div>

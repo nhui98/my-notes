@@ -1,4 +1,5 @@
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const StyleTag = () => (
@@ -10,20 +11,10 @@ const StyleTag = () => (
       <div>Contains style information for a document.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLStyleElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted Content</td>
-            <td className="html-cell-details">Text content of type text/css</td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">media title nonce</td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLStyleElement" />
+          </TableRow>
+          <TableRow label="Attributes">media title nonce</TableRow>
         </tbody>
       </table>
     </div>
