@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const IFrameTag = () => (
@@ -15,27 +16,18 @@ const IFrameTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLIFrameElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA Role</td>
-            <td className="html-cell-details">
-              <AriaRole role="application" /> <AriaRole role="document" />{" "}
-              <AriaRole role="img" /> <AriaRole role="none" />{" "}
-              <AriaRole role="presentation" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              allow allowfullscreen allowpaymentrequest csp fetchpriority height
-              loading name referrerpolicy sandbox src srcdoc width
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLIFrameElement" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="application" /> <AriaRole role="document" />{" "}
+            <AriaRole role="img" /> <AriaRole role="none" />{" "}
+            <AriaRole role="presentation" />
+          </TableRow>
+          <TableRow label="Attributes">
+            allow allowfullscreen allowpaymentrequest csp fetchpriority height
+            loading name referrerpolicy sandbox src srcdoc width
+          </TableRow>
         </tbody>
       </table>
     </div>

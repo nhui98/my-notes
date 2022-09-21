@@ -1,4 +1,4 @@
-import SectionTitle from "../SectionTitle";
+import PageTitle from "../PageTitle";
 import EmbedTag from "./EmbedTag";
 import IFrameTag from "./IFrameTag";
 import ObjectTag from "./ObjectTag";
@@ -8,7 +8,11 @@ import SourceTag from "./SourceTag";
 
 const EmbeddedContent = () => (
   <section className="html-section">
-    <SectionTitle title="Embedded Content" />
+    <PageTitle
+      heading="HTML"
+      subheading="Elements"
+      description="Embedded Content"
+    />
     <div className="html-section-layout">
       <EmbedTag />
       <IFrameTag />

@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const ObjectTag = () => (
@@ -15,25 +16,16 @@ const ObjectTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLObjectElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA Role</td>
-            <td className="html-cell-details">
-              <AriaRole role="application" /> <AriaRole role="document" />{" "}
-              <AriaRole role="image" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              data form height name type usemap width
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLObjectElement" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="application" /> <AriaRole role="document" />{" "}
+            <AriaRole role="image" />
+          </TableRow>
+          <TableRow label="Attributes">
+            data form height name type usemap width
+          </TableRow>
         </tbody>
       </table>
     </div>

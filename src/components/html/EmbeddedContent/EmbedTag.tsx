@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const EmbedTag = () => (
@@ -16,24 +17,15 @@ const EmbedTag = () => (
       </div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLEmbedElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Permitted ARIA Roles</td>
-            <td className="html-cell-details">
-              <AriaRole role="application" /> <AriaRole role="document" />{" "}
-              <AriaRole role="img" /> <AriaRole role="none" />{" "}
-              <AriaRole role="presentation" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">height src type width</td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLEmbedElement" />
+          </TableRow>
+          <TableRow label="Permitted ARIA Role">
+            <AriaRole role="application" /> <AriaRole role="document" />{" "}
+            <AriaRole role="img" /> <AriaRole role="none" />{" "}
+            <AriaRole role="presentation" />
+          </TableRow>
+          <TableRow label="Attributes">height src type width</TableRow>
         </tbody>
       </table>
     </div>
