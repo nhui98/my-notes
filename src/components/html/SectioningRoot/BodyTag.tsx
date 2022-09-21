@@ -1,5 +1,6 @@
 import AriaRole from "../AriaRole";
 import DomInterface from "../DomInterface";
+import TableRow from "../TableRow";
 import Tag from "../Tag";
 
 const BodyTag = () => (
@@ -11,24 +12,17 @@ const BodyTag = () => (
       <div>Represents the content of a HTML document.</div>
       <table className="html-tag-table">
         <tbody className="html-tag-tbody">
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">DOM Interface</td>
-            <td className="html-cell-details">
-              <DomInterface element="HTMLBodyElement" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Implicit ARIA role</td>
-            <td className="html-cell-details">
-              <AriaRole role="generic" />
-            </td>
-          </tr>
-          <tr className="html-tag-trow">
-            <td className="html-cell-label">Attributes</td>
-            <td className="html-cell-details">
-              onblur onfocus onerror onload onunload onresize
-            </td>
-          </tr>
+          <TableRow label="DOM Interface">
+            <DomInterface element="HTMLBodyElement" />
+          </TableRow>
+          <TableRow label="Implicit ARIA Role">
+            <AriaRole role="generic" />
+          </TableRow>
+          <TableRow label="Attributes">
+            onafterprint onbeforeprint onbeforeunload onblur onfocus onerror
+            onload onunload onresize onhashchange onmessage onoffline ononline
+            on popstate onredo onstorage onundo onunload
+          </TableRow>
         </tbody>
       </table>
     </div>
