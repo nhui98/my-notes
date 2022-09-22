@@ -20,7 +20,7 @@ export const SIDEBAR_LINKS = [
       },
       {
         slug: "css-sizing&spacing",
-        text: "sizing & Spacing",
+        text: "Sizing & Spacing",
         href: "/css/sizing&spacing",
       },
       {
