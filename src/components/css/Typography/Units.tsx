@@ -9,30 +9,31 @@ const UnitsSizing = () => (
     <div>
       <p>
         <Property property="px" />
-        <ul>
-          <li>relative to viewport if positioned fixed</li>
-          <li>
-            relative to closest positioned ancestor if positioned absolute
-          </li>
-          <li>relative to closest block ancestor if relative/static</li>
-        </ul>
       </p>
+      <ul>
+        <li>relative to viewport if positioned fixed</li>
+        <li>relative to closest positioned ancestor if positioned absolute</li>
+        <li>relative to closest block ancestor if relative/static</li>
+      </ul>
+
       <p>
         <Property property="%" />
       </p>
+
       <p>
         <Property property="em" />
-        <ul>
-          <li>on font-size is relative to parent font size</li>
-          <li>on other property is relative to own font size</li>
-        </ul>
       </p>
+      <ul>
+        <li>on font-size is relative to parent font size</li>
+        <li>on other property is relative to own font size</li>
+      </ul>
+
       <p>
         <Property property="rem" />
-        <ul>
-          <li>relative to root/html font size</li>
-        </ul>
       </p>
+      <ul>
+        <li>relative to root/html font size</li>
+      </ul>
     </div>
   </div>
 );
