@@ -24,9 +24,9 @@ export const SIDEBAR_LINKS = [
         href: "/css/sizing&spacing",
       },
       {
-        slug: "css-position",
-        text: "Position",
-        href: "/css/position",
+        slug: "css-layout",
+        text: "Layout",
+        href: "/css/layout",
       },
       {
         slug: "css-display",

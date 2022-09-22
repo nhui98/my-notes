@@ -1,11 +1,11 @@
 import Fundementals from "@components/css/Fundementals";
 import Selectors from "@components/css/Selectors";
-import Typography from "@components/css/Typography";
+import SizingSpacing from "@components/css/SizingSpacing";
 
 export const PATH_MAP = {
   fundementals: <Fundementals />,
   selectors: <Selectors />,
-  typography: <Typography />,
+  "sizing&spacing": <SizingSpacing />,
 } as {
   [key: string]: JSX.Element;
 };

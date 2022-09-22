@@ -1,11 +1,11 @@
 import { NextPage } from "next";
 
-const Property: NextPage<HtmlTagProps> = ({ property }) => (
+const Property: NextPage<PropertyProps> = ({ property }) => (
   <code className="text-indigo-600">{property}</code>
 );
 
 export default Property;
 
-interface HtmlTagProps {
+interface PropertyProps {
   property: string;
 }
